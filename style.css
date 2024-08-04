@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.section-one__title{
+    vertical-align: top;
+    text-align: center;
+
+}
+
+.section-one__navbar{
+    color: gray;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.card-container{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-one,.card-two,.card-three,.card-four{
+    color: black;
+    width: 200px;
+    overflow: hidden;
+    border: solid black 2px;
+    display: inline-block;
+    
+}
+
+.card__img{
+    height: 200px;
+
+}
+.card__title{
+    text-align: center;
+}
+.card__desc{
+    text-align: center;
+}
+.card__button{
+    border: none;
+    background: black;
+    color: wheat;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.card__button--red{
+    background-color: red;
+}
+
+.contact-form{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.contact-form__button{
+    background-color: lawngreen;
+    color: black;
+    width: 380px;
+    text-align: center;
+}
+.contact-form__table{
+    padding-left: 480px;
+}
